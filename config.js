@@ -27,7 +27,7 @@ global.warncount = process.env.WARN_COUNT || 3;
 global.disablepm = process.env.DISABLE_PM || "false";
 global.disablegroup = process.env.DISABLE_GROUPS || "false",
 global.MsgsInLog = process.env.MSGS_IN_LOG || "false";
-global.userImages = process.env.USER_IMAGES || "https://files.catbox.moe/kw5v2e.mp4";
+global.userImages = process.env.USER_IMAGES || "https://files.catbox.moe/dhrill.jpg";
 global.waPresence = process.env.WAPRESENCE || "available";
 global.readcmds = process.env.READ_COMMAND || "true";
 global.readmessage = process.env.READ_MESSAGE || "false";
@@ -63,7 +63,7 @@ module.exports = {
   HEROKU: process.env.HEROKU_APP_NAME && process.env.HEROKU_API_KEY,
   aitts_Voice_Id: process.env.AITTS_ID || "37",
   ELEVENLAB_API_KEY: process.env.ELEVENLAB_API_KEY || "",
-  WORKTYPE: process.env.WORKTYPE || process.env.MODE || "public",
+  WORKTYPE: process.env.WORKTYPE || process.env.MODE || "private",
   LANG: (process.env.THEME || "K Y L I E").toUpperCase(),
 };
 global.rank = "updated";
